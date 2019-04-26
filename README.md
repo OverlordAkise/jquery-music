@@ -7,7 +7,9 @@ You can click the song names to jump straight to that specific song.
 
 For a live preview visit my website [oblivion.at](http://oblivion.at/music).
 
+## Source
 The song in the 'song' folder is "Fake it till you make it" by DREAMERS.
+I do not own this song, I only use it as an example.
 Please support them if you like the song: [iTunes - Launch EP](https://itunes.apple.com/at/album/launch-ep/1406749855)
 
 ## Features in progress
