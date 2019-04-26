@@ -14,6 +14,6 @@ Please support them if you like the song: [iTunes - Launch EP](https://itunes.ap
 
 Currently the songs are not being cached by the browser correctly, so if you get the same song twice after each other you still sometimes download them twice.
 
->Add internal caching for songs already listened to
->Add good looking CSS
->Make a non-copyright default song list for testing purposes
+>Add internal caching for songs already listened to  
+>Add good looking CSS  
+>Make a non-copyright default song list for testing purposes  
