@@ -61,7 +61,7 @@ getFiles();
 function defvol(){
 	document.getElementById("mudo").volume = 0.3;
 	
-	document.getElementById("sor").src = "dets/"+songs[Math.floor(Math.random()*songs.length)];
+	document.getElementById("sor").src = baseUrl+songs[Math.floor(Math.random()*songs.length)];
 	document.getElementById("mudo").load();
 }
 function playPause(){
@@ -82,14 +82,14 @@ function loop(){
 }
 function DoSomething(song){
 	if(song){
-		document.getElementById("sor").src = "dets/"+song;
+		document.getElementById("sor").src = baseUrl+song;
 		document.title = song;
 		document.getElementById("cur").innerHTML = song;
 		document.getElementById("mudo").load();
 		document.getElementById("mudo").play();
 	}else{
 		var sang = songs[Math.floor(Math.random()*songs.length)];
-		document.getElementById("sor").src = "dets/"+sang;
+		document.getElementById("sor").src = baseUrl+sang;
 		document.title = sang;
 		document.getElementById("cur").innerHTML = sang;
 		document.getElementById("mudo").load();
